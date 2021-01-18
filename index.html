@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salieri</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="header">
+    <nav class="navigation">
+            <ul class="menu-touch">
+                <li class="menu-touch-link"><div class="menu-logo" >Salieri</div></li>
+                <li class="menu-touch-link">
+                    <div class="menu-click" id="goAboutus">About us</div></li>
+                <li class="menu-touch-link">
+                    <div class="menu-click" id="goContacts">Contacts</div></li>
+            </ul>
+    </nav>
+</header>
+
+
+<main class="container">
+
+<section class="intro">
+    <div class="intro-img">
+    <img src="img/headphones.jpg" width="500" height="500"> 
+</div>
+
+<div class="file-upl">
+    <div class="intro-title"><h2>Welcome to Salieri project</h2></div>
+    <p class="info-descr">Our project is created in order to help musicians in developing their music.
+        Our RNN neural network will continue your music and after finishing the process you will be able to download it. 
+        This service can use any person<br><br>
+        If you want, to try it, press button under this text.<br><br><br>
+    </p>
+
+    <div>
+    <div id="upload-b">
+    <label for="myfile" class="upload">Upload</label>
+    <input class="upload-file" type="file" id="myfile" name="myfile" onchange="readFile(this)">
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section class="team" id="team">
+    <div class="heading_title">
+        <h1>Our Team</h1>
+    </div>
+    
+<ul class="team-members">
+    <li class="member", style="text-align: center;">
+        <img src="img/img1.jpg" width=50% alt="">
+    <p>Artur Isac</p>
+    </li>
+
+
+<li class="member", style="text-align: center;">
+    <img src="img/img2.jpg" width=50% alt="">
+<p>Eugeniu Chetrar</p>
+</li>
+
+<li class="member", style="text-align: center;">
+    <img src="img/img3.jpg" width=50% alt="">
+<p>Radu Arama</p>
+</li>
+
+<li class="member", style="text-align: center;">
+    <img src="img/img4.jpg" width=50% alt="">
+<p>Lina Cipciu</p>
+</li>
+
+<li class="member", style="text-align: center;" >
+    <img src="img/img5.jpg" width=50% alt="">
+<p>Vladislav Maslihov</p>
+</li>
+
+</ul>
+
+</section>
+
+
+<section class="contacts" id="contacts">
+<div class="conts">
+    <h1>Contacts</h1>
+    <form class="email-address" method="post">
+        <p>
+            <label for="email" name="email-label">
+                <p class="email-type">Email address</p>
+                </label>
+        <input id="email" type="text" placeholder="Enter email">
+        </p>
+        <p class="text">
+            <p class="text-type">Text</p>
+                <p></p><textarea name="sText"></textarea></p>
+        </p>
+        <div>
+        <label class="contact-submit">Submit</label>
+        </div>
+    </form>
+</div>
+</section>
+
+</main>
+ 
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,177 @@
+body, html {
+    font-size: 14px;
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav{
+    margin: 0 auto;
+    max-width: 1900px;
+    width: 100%;
+}
+
+.navigation{
+    width: 100%;
+    line-height: 70px;
+    background-color: black;
+}
+
+
+.menu-touch{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.menu-touch-link{
+    color: white;
+    font-size: 20px;
+    opacity: .98;
+    transition: opacity .2s linear;
+}
+
+.menu-click{
+    color: white;
+    text-decoration: none;
+    align-self: center;
+    font-size: 15px;
+    opacity: .95;
+    transition: opacity .2s linear;
+    cursor: pointer;
+}
+
+.menu-click:hover{
+    opacity: 1;
+}
+
+.menu-logo{
+    font-size: 30px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-right: 200px;
+}
+
+
+.intro{
+    display: flex;
+    flex-direction: row;
+    block-size: 600px;
+}
+
+.intro-img{
+    margin-top: 50px;
+}
+
+.file-upl{
+    margin-top: 90px;
+    margin-left: 15%;
+    width: 50%;
+    text-align: right;
+
+}
+
+.intro-title{
+    margin-right: 5%;
+    font-size: 30px;
+    text-align: right;
+}
+
+.info-descr{
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+.upload{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 2px;
+    font: 20px/50px Raleway;
+    color: white;
+    background-color:#00c8ab;
+}
+
+.heading_title{
+    flex-direction: row;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.team{
+    margin: 100px 0;
+    width: 100%;
+    display: block;
+    block-size: 600px;
+}
+
+.team-members{
+    margin-right: 20px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.conts{
+    width: 100%;
+    display: block;
+    block-size: 600px;
+    text-align: center;
+}
+
+.conts h1{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+
+.text{
+    margin-top: 40px;
+}
+
+.email-type, .text-type{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+#email{
+    width: 500px;
+    height: 35px;
+}
+
+textarea{
+    width: 500px;
+    height: 150px;
+    box-sizing: border-box;
+}
+
+.contact-submit{
+    width: 100px;
+    height: 50px;
+    border-radius: 2px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+    margin-left: 50px;
+    font: 20px/50px Raleway;
+    color: white;
+    background-color:#2533e3;
+    position: absolute;
+}
